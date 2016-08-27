@@ -59,6 +59,9 @@ body {
     background-position-y: -200px;
     background-size: cover;
     background-attachment: fixed; }
+    @media screen and (max-width: 320px) {
+      body header {
+        background-position-y: 0; } }
     body header nav {
       position: fixed;
       background: rgba(0, 0, 0, 0.1);
@@ -68,11 +71,19 @@ body {
       text-align: center;
       font-size: 17px;
       text-transform: uppercase; }
+      @media screen and (max-width: 320px) {
+        body header nav {
+          position: static; } }
       body header nav ul .border-right {
         border-right: 1px solid rgba(255, 255, 255, 0.15); }
       body header nav ul li {
         display: inline-block;
         padding: 25px; }
+        @media screen and (max-width: 320px) {
+          body header nav ul li {
+            width: 100%;
+            padding: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.85); } }
     body header div {
       padding-top: 220px; }
       body header div h1, body header div p {
@@ -85,6 +96,9 @@ body {
       body header div p {
         font-size: 20px;
         padding-top: 15px; }
+        @media screen and (max-width: 320px) {
+          body header div p {
+            display: none; } }
   body .backgroundgray {
     padding-top: 30px;
     background: #f2f2f2; }
@@ -116,8 +130,15 @@ body {
         padding: 10px;
         box-sizing: border-box;
         color: #bbbbbb; }
+        @media screen and (max-width: 320px) {
+          body .backgroundgray .features article {
+            width: 100%;
+            box-sizing: none; } }
         body .backgroundgray .features article i {
           font-size: 50px; }
+          @media screen and (max-width: 320px) {
+            body .backgroundgray .features article i {
+              font-size: 70px; } }
         body .backgroundgray .features article h4, body .backgroundgray .features article p, body .backgroundgray .features article a {
           padding: 10px; }
         body .backgroundgray .features article h4 {
@@ -129,6 +150,11 @@ body {
         body .backgroundgray .features article p {
           margin-top: 10px;
           margin-bottom: 25px; }
+          @media screen and (max-width: 320px) {
+            body .backgroundgray .features article p {
+              display: none;
+              margin-bottom: 0;
+              margin-top: 0; } }
         body .backgroundgray .features article a {
           padding: 12px 30px;
           border-radius: 5px;
@@ -204,6 +230,10 @@ body {
         padding: 15px; }
         body footer ul li a {
           text-decoration: none;
-          color: #bbbbbb; }
+          color: #bbbbbb;
+          transition: 0.6s; }
+          body footer ul li a:hover {
+            color: white;
+            font-size: 36px; }
 
 /*# sourceMappingURL=style.css.map */
