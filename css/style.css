@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,700";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Roboto"; }
+  body strong {
+    font-weight: 700; }
+  body a {
+    color: #7ebc8d; }
+  body header {
+    background: url("../img/header.jpg");
+    width: 100%;
+    height: 520px;
+    background-position-y: -200px;
+    background-size: cover;
+    background-attachment: fixed; }
+    body header nav {
+      position: fixed;
+      background: rgba(0, 0, 0, 0.1);
+      color: rgba(255, 255, 255, 0.85);
+      width: 100%;
+      height: 70px;
+      text-align: center;
+      font-size: 17px;
+      text-transform: uppercase; }
+      body header nav ul .border-right {
+        border-right: 1px solid rgba(255, 255, 255, 0.15); }
+      body header nav ul li {
+        display: inline-block;
+        padding: 25px; }
+    body header div {
+      padding-top: 220px; }
+      body header div h1, body header div p {
+        text-align: center;
+        color: white;
+        font-weight: 300; }
+      body header div h1 {
+        font-size: 80px;
+        text-transform: capitalize; }
+      body header div p {
+        font-size: 20px;
+        padding-top: 15px; }
+  body .backgroundgray {
+    padding-top: 30px;
+    background: #f2f2f2; }
+    body .backgroundgray .features {
+      padding: 36px 0;
+      margin: 0 auto;
+      width: 80%;
+      overflow: auto; }
+      body .backgroundgray .features div {
+        padding-bottom: 50px; }
+        body .backgroundgray .features div h2 {
+          font-weight: 300;
+          font-size: 40px;
+          text-align: center;
+          color: #bbbbbb; }
+        body .backgroundgray .features div p {
+          text-align: center;
+          font-size: 16px;
+          padding-top: 20px;
+          line-height: 25px;
+          padding-bottom: 50px;
+          color: #bbbbbb; }
+        body .backgroundgray .features div hr {
+          border: 1px solid #e2e2e2; }
+      body .backgroundgray .features article {
+        width: 33%;
+        float: left;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        color: #bbbbbb; }
+        body .backgroundgray .features article i {
+          font-size: 50px; }
+        body .backgroundgray .features article h4, body .backgroundgray .features article p, body .backgroundgray .features article a {
+          padding: 10px; }
+        body .backgroundgray .features article h4 {
+          font-size: 20px;
+          margin-top: 18px; }
+        body .backgroundgray .features article p, body .backgroundgray .features article a {
+          font-size: 15px;
+          line-height: 25px; }
+        body .backgroundgray .features article p {
+          margin-top: 10px;
+          margin-bottom: 25px; }
+        body .backgroundgray .features article a {
+          padding: 12px 30px;
+          border-radius: 5px;
+          color: white;
+          background: #7ebc8d;
+          text-decoration: none;
+          font-weight: 300; }
+  body .cards {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 60px; }
+    body .cards ul li {
+      margin: 5%;
+      display: inline-block;
+      width: 39%;
+      box-sizing: border-box; }
+      body .cards ul li img {
+        width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

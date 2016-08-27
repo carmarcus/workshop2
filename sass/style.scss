@@ -1,0 +1,176 @@
+@import "reset";
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+
+$background-nav: rgba(0,0,0,0.1);
+$color-font-nav: rgba(255,255,255,0.85);
+$color-font-header: rgb(255,255,255);
+$color-font-gray: rgb(187,187,187);
+$color-font-hr: rgb(226,226,226);
+$color-background-features: rgb(242,242,242);
+$color-green: rgb(126,188,141);
+
+
+
+
+body{
+	font-family: "Roboto";
+	strong{ 
+		font-weight: 700;
+	}
+	a{
+		color: $color-green;
+	}
+	header{ 
+		background: url("../img/header.jpg");
+		width: 100%;
+		height: 520px;
+		background-position-y: -200px; 
+		background-size: cover;
+		background-attachment: fixed;
+		nav{ 
+			position: fixed;
+			background: $background-nav;
+			color: $color-font-nav;
+			width: 100%;
+			height: 70px;
+			text-align: center;
+			font-size: 17px;
+			text-transform: uppercase;
+
+			ul{
+				.border-right{
+						border-right: 1px solid rgba(255,255,255,0.15);
+
+					}
+				li{
+					display: inline-block;
+					padding: 25px;
+					
+
+
+				}
+			}
+		}
+		div{
+			padding-top: 220px;
+			h1,p{
+				text-align: center;
+				color:$color-font-header;
+				font-weight: 300;
+
+			}
+			h1{
+				font-size: 80px;
+				text-transform: capitalize;
+				
+			}
+			p{
+				font-size: 20px;
+				padding-top:15px;
+			}
+		}
+	}
+
+	.backgroundgray{
+		padding-top: 30px;
+		background: $color-background-features;
+
+	.features{
+		
+		padding: 36px 0;
+    	margin: 0 auto;
+    	width: 80%;
+    	overflow: auto;
+
+
+		div{ 
+			padding-bottom:50px;
+
+			h2{
+				font-weight: 300;
+				font-size: 40px;
+				text-align: center;
+				color:$color-font-gray;
+
+			}
+			p{
+				text-align: center;
+				font-size: 16px;
+				padding-top: 20px;
+				line-height: 25px;
+				padding-bottom: 50px;
+				color:$color-font-gray;
+
+			}
+			hr{
+				border: 1px solid $color-font-hr;
+			}
+
+		
+		}
+		article{
+			width: 33%;
+			float: left;
+			text-align: center;
+			padding: 10px;
+			box-sizing:border-box;
+			color:$color-font-gray;
+
+			i{
+				font-size: 50px;
+			}
+			h4, p,a{
+				padding: 10px;
+
+			}
+			h4{
+				font-size: 20px;
+				margin-top: 18px;
+			}
+			p,a{
+				font-size: 15px;
+				line-height: 25px;
+			}
+			p{
+				margin-top: 10px;
+				margin-bottom: 25px;
+			}
+			a{
+				padding: 12px 30px;
+				border-radius: 5px;
+				color: white;
+				background: $color-green;
+				text-decoration: none;
+				font-weight: 300;
+
+
+			}
+		}
+	}
+	}
+	.cards{
+		clear: both;
+		margin: 0 auto;
+		width: 100%;
+		padding-top: 60px;
+
+		ul{
+			
+
+			li{
+			margin: 5%;
+			display: inline-block;
+			width: 39%;
+			box-sizing: border-box;
+			img{
+				width: 100%;
+			}
+			}
+
+		}
+		
+	
+	}
+
+
+}
