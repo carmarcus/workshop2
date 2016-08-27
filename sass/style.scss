@@ -1,5 +1,5 @@
 @import "reset";
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700';
 
 $background-nav: rgba(0,0,0,0.1);
 $color-font-nav: rgba(255,255,255,0.85);
@@ -150,26 +150,111 @@ body{
 	}
 	.cards{
 		clear: both;
-		margin: 0 auto;
+		margin: 4% 9%;
 		width: 100%;
-		padding-top: 60px;
-
+		
 		ul{
 			
 
 			li{
-			margin: 5%;
+			margin: 6px 15px;
 			display: inline-block;
 			width: 39%;
 			box-sizing: border-box;
-			img{
+
+				img{
 				width: 100%;
+				}
+				h3{
+				font-weight: 300;
+				font-size: 30px;
+				text-align: center;
+				color:$color-font-gray;
+				line-height: 100px;
+				text-align: center; 
+				}
+				p{
+				font-size: 15px;
+				line-height: 25px;
+				color:$color-font-gray;
+				text-align: center;
+				padding-bottom: 10px; 
+				}
+
+
 			}
-			}
+
 
 		}
 		
-	
+	}
+	.quote{
+		background: url("../img/header.jpg");
+		width: 100%;
+		background-position-y: 0px; 
+		background-size: cover;
+		background-attachment: fixed;
+		height: 250px;
+		blockquote{
+			width: 60%;
+			margin: 0 auto;
+			padding-top: 90px;
+			
+			h5{
+
+				color: white;
+				font-size: 20px;
+				font-weight: 300;
+				font-style: italic;
+				text-align: center;
+				line-height: 30px;
+
+
+			}
+		}
+		
+
+	}
+	footer{
+		width: 100%;
+		height: 230px;
+		background: black;
+		padding-top: 60px;
+		h2{
+			font-weight: 300;
+				font-size: 40px;
+				text-align: center;
+				color: white;
+		}
+
+		p{
+			font-weight: 300;
+				font-size: 19px;
+				text-align: center;
+				color:$color-font-gray;
+				line-height: 50px;
+				text-align: center; 
+		}
+
+		ul{
+
+			text-align: center;
+			margin: 15px;
+
+			li{
+				display: inline-block;
+				font-size: 35px;
+				padding: 15px;
+				a{
+				text-decoration: none;
+				color:$color-font-gray;
+				}
+
+
+
+
+			}
+		}
 	}
 
 

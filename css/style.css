@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import "https://fonts.googleapis.com/css?family=Roboto:300,400,700";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -138,15 +138,72 @@ body {
           font-weight: 300; }
   body .cards {
     clear: both;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 60px; }
+    margin: 4% 9%;
+    width: 100%; }
     body .cards ul li {
-      margin: 5%;
+      margin: 6px 15px;
       display: inline-block;
       width: 39%;
       box-sizing: border-box; }
       body .cards ul li img {
         width: 100%; }
+      body .cards ul li h3 {
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+        color: #bbbbbb;
+        line-height: 100px;
+        text-align: center; }
+      body .cards ul li p {
+        font-size: 15px;
+        line-height: 25px;
+        color: #bbbbbb;
+        text-align: center;
+        padding-bottom: 10px; }
+  body .quote {
+    background: url("../img/header.jpg");
+    width: 100%;
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px; }
+    body .quote blockquote {
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 90px; }
+      body .quote blockquote h5 {
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+        text-align: center;
+        line-height: 30px; }
+  body footer {
+    width: 100%;
+    height: 230px;
+    background: black;
+    padding-top: 60px; }
+    body footer h2 {
+      font-weight: 300;
+      font-size: 40px;
+      text-align: center;
+      color: white; }
+    body footer p {
+      font-weight: 300;
+      font-size: 19px;
+      text-align: center;
+      color: #bbbbbb;
+      line-height: 50px;
+      text-align: center; }
+    body footer ul {
+      text-align: center;
+      margin: 15px; }
+      body footer ul li {
+        display: inline-block;
+        font-size: 35px;
+        padding: 15px; }
+        body footer ul li a {
+          text-decoration: none;
+          color: #bbbbbb; }
 
 /*# sourceMappingURL=style.css.map */
